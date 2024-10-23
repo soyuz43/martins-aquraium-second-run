@@ -58,5 +58,45 @@ export const database = {
       diet: "Detritivore",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Starfish.jpg/800px-Starfish.jpg"
     }
+  ],
+  tips: [
+    {
+      tip: "Ensure the water temperature is consistent for the species you keep."
+    },
+    {
+      tip: "Regularly test water parameters like pH and nitrogen levels."
+    },
+    {
+      tip: "Change 20-25% of the water every two weeks to keep the environment clean."
+    },
+    {
+      tip: "Provide adequate lighting based on the needs of your aquarium plants and animals."
+    },
+    {
+      tip: "Quarantine new fish separately before introducing them to your main tank to prevent the spread of diseases."
+    }
+  ],
+  locations: [
+    {
+      id: 1,
+      name: "Great Barrier Reef",
+      description: "Located off the coast of Queensland, Australia, home to a diverse range of marine life."
+    },
+    {
+      id: 2,
+      name: "Amazon River",
+      description: "This river flows through South America and has some of the most biodiverse habitats in the world."
+    },
+    {
+      id: 3,
+      name: "Red Sea",
+      description: "Known for its clear blue water and coral reefs, situated between Africa and Asia."
+    },
+    {
+      id: 4,
+      name: "Bali",
+      description: "An Indonesian island known for its forested volcanic mountains and vibrant coral reefs."
+    }
   ]
 }
+
